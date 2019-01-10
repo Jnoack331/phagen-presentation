@@ -1,0 +1,15 @@
+{
+  "name": "solutiondrive/revealtemplates",
+  "description": "skeleton to create a reveal.js presentation with our needs",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.0"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php init/install.php",
+      "rm -r init/"
+    ]
+  }
+}

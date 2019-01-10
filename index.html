@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Phagen</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/connectedDots.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<canvas id="canvas" class="background"></canvas>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h2>Phagen</h2>
+						<p>sich entwickelnde mikroskopische Terminatoren</p>
+						<img src="img/phage.jpg" style="height: 40vh">
+					</section>
+					<section>
+						<p>
+							Virus
+						</p>
+						<p>
+							Spezialisiert auf einzelne Bakterien und Zellen mit Zellkern
+						</p>
+					</section>
+					<section>
+						<h2>
+							Infektionszyklus
+						</h2>
+					</section>
+					<section>
+						<img src="img/phage-swimming.webp">
+					</section>
+					<section>
+						<img src="img/phage-finding-bacteria.jpg">
+					</section>
+					<section>
+						<img src="img/phage-infecting.jpg">
+						<aside class="notes">
+							- Injiziert DNA in Bakterie<br>
+							- Bakterie Produziert nun Phagen<br>
+						</aside>
+					</section>
+					<section>
+						<img src="img/phage-kill.jpg">
+					</section>
+				</section>
+				<section>
+					<section>
+						<p>Hilfreiche kleine Helfer</p>
+					</section>
+					<section>
+						<p>Anwendungsbeispiele von Phagen:</p>
+						<ul>
+							<li>
+								bestimmung von Bakterien
+							</li>
+							<li>
+								Genveränderungen bei Bakterien
+							</li>
+							<li>
+								In der Zukunft evtl. gegen Krebs
+							</li>
+							<li>
+								Antibioteka Ersatz
+							</li>
+						</ul>
+						<aside class="notes">
+							Genveränderungen:<br>
+							- z.B. Insolinherstellung modifizierte Bakterien produzieren Insolien<br>
+							<br>
+							Gegen Krebs:<br>
+							- evtl. programmierbar gegen Krebszellen<br>
+						</aside>
+					</section>
+					<section>
+						<p>Waffe gegen Bakterielle Infektionen</p>
+						<aside class="notes">
+							- Phagentherapie wird schon seit 1915 erforscht<br>
+							- viele Phagenlabore entstehen dann wurde erste Antibioteka entwickelt<br>
+							- daraufhin Forschung nur noch in Russland und China<br>
+							- Menschen setzen immer öfter Antibioteka bei kleinen Infektionen ein<br>
+							- Bakterien werden durch häufigen Einsatz Immun<br>
+							- Intresse an Phagentherapie steigt wieder<br>
+							- Einfacher alles tötene Waffe in den Körper zu geben anstatt Zielgerichtet Bakterien zu bekämpfen da Bakterien identifizierung benötigt<br>
+							- Phagentherapie Waffe gegen Infektionen der Zukunft<br>
+							<br>
+							Rettung durch Phagen:<br>
+							- Töten auch gegen Antibioteka resistente Bakterien<br>
+							- viel schonender für den Körper da Phagen Zielgerichtet töten<br>
+						</aside>
+					</section>
+					<section>
+						<p>Aber werden Bakterien dann nicht auch Resistent gegen Phagen?</p>
+						<aside class="notes">
+							- Sie haben Waffen z.B. CRISPR<br>
+							- CRISPR schneidet Phagen DNA aus Bakterien DNA<br>
+							- CRISPR wird von Menschen verwendet um Gene zu manpulieren
+							- Unwarscheinlich da Phargen sich auch immer weiter Entwicklen<br>
+							- Wettrüsten haben Phagen immer Gewonnen<br>
+							- Sollte es geschehen verlieren Bakterien Antibioteka Resistens<br>
+						</aside>
+					</section>
+					<section>
+						<p>Menschliche Symbiose mit Phagen?</p>
+						<img src="img/phage-news.png" style="height: 50vh">
+					</section>
+				</section>
+				<section>
+					<section>
+						Genmanipulation mit Phagen
+						<img src="img/gen.jpg" style="height: 40vh">
+						<aside class="notes">
+							- Phagen-DNA kann ausgewechelt werden<br>
+							- Problem: Massenherstellung von veränderten Phagen nicht möglich<br>
+							- Wenn Problem gelöst komplette Genmanipulation möglich<br>
+						</aside>
+					</section>
+					<section>
+						<img src="img/designerBabys.jpg" style="height: 40vh">
+						<aside class="notes">
+							Was haltet ihr von Genmanipulation bei Kindern?
+						</aside>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+		<script src="js/connectedDots.js"></script>
+	</body>
+</html>
